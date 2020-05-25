@@ -1,0 +1,67 @@
+﻿@model DataLayer.Model.Pages
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>جدید</h2>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="Create" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="GroupID" class="control-label"></label>
+                <select asp-for="GroupID" class="form-control" asp-items="ViewBag.GroupID"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="PageText" class="control-label"></label>
+                <textarea asp-for="PageText" class="form-control"></textarea>
+                <span asp-validation-for="PageText" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PageDescription" class="control-label"></label>
+                <textarea asp-for="PageDescription" class="form-control"></textarea>
+                <span asp-validation-for="PageDescription" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Tags" class="control-label"></label>
+                <input asp-for="Tags" class="form-control" />
+                <span asp-validation-for="Tags" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ImageName" class="control-label"></label>
+                <input type="file" name="IMGup" />
+                <span asp-validation-for="ImageName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="ShowSlider" /> @Html.DisplayNameFor(model => model.ShowSlider)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="ثبت" class="btn btn-success" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" class="btn btn-warning btn-sm">بازگشت</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+

@@ -1,0 +1,18 @@
+﻿@using DataLayer.Repositories.Repository
+@inject IPageGroup pages
+
+
+<ul>
+    <li><a href="/"> صفحه اصلی </a></li>
+    <li>
+        <span>نقاط گردشگری</span>
+        <ul>
+            @foreach (var item in pages.Getallpagegroup())
+            {
+
+                <li><a href="">@item.GroupTitle</a></li>
+            }
+        </ul>
+
+    </li>
+</ul>

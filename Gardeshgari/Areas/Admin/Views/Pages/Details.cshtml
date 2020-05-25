@@ -1,0 +1,74 @@
+﻿@model DataLayer.Model.Pages
+
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>جزئیات</h2>
+
+<div>
+
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PageText)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PageText)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PageDescription)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PageDescription)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Tags)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Tags)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Visit)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Visit)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ImageName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ImageName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CreateTime)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CreateTime)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ShowSlider)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ShowSlider)
+        </dd>
+        <dt>
+            <a>استان</a>
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PageGroup.GroupTitle)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.PageID" class="btn btn-sm btn-warning">ویرایش</a>
+    <a asp-action="Index" class="btn btn-sm btn-success">بازگشت</a>
+</div>
+v>

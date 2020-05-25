@@ -1,0 +1,69 @@
+﻿@model DataLayer.Model.Pages
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>حذف</h2>
+<hr />
+<h3>آیا از حذف این صفحه مطمئن هستید؟</h3>
+<div>
+
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PageText)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PageText)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PageDescription)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PageDescription)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Tags)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Tags)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Visit)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Visit)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CreateTime)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CreateTime)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ShowSlider)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ShowSlider)
+        </dd>
+        <dt>
+            <a>استان</a>
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PageGroup.GroupTitle)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="PageID" />
+        <input type="submit" value="حذف" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-success">بازگشت</a>
+    </form>
+</div>

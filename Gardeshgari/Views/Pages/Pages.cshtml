@@ -1,0 +1,41 @@
+﻿@model DataLayer.Model.Pages
+
+
+
+    <div class="col-md-12 col-sm-12 col-xs-12 pull-left">
+
+        <ul class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">خانه </a></li>
+            <li class="breadcrumb-item"><a href="#">اخبار </a></li>
+            <li class="breadcrumb-item"><a href="#">دسته بندی  </a></li>
+            <li class="breadcrumb-item active">@Model.Title </li>
+        </ul>
+
+        <section class="single-news border-radius">
+            <header><h2> @Model.Title </h2> <span> <i class="fa fa-calendar"></i>  انتشار : @Model.CreateTime.ToShamsi()</span></header>
+            <article>
+                <p>
+                    @Model.PageDescription
+                </p>
+                <div>
+                    <img src="~/ImagesFolder/@Model.ImageName" alt="@Model.Title" style="max-height:100px;max-width:100px" />
+                </div>
+                <p>
+                    @Model.PageText
+                </p>
+            </article>
+        </section>
+
+        <div class="keywords border-radius">
+            @foreach (var item in Model.Tags.Split('-'))
+            {
+                <a href=""> @item </a>
+            }
+
+        </div>
+
+
+
+
+
+    </div>
