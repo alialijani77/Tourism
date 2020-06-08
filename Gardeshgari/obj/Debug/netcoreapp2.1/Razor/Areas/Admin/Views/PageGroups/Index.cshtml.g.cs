@@ -65,7 +65,7 @@ using DataLayer.ViewModels.Utility;
             WriteLiteral("\r\n<h2>استان ها</h2>\r\n<hr />\r\n<p>\r\n    ");
             EndContext();
             BeginContext(128, 72, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "583828603a6a4959baced0b123c81e69", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2078f41619f04deabe5d86590c7f85e1", async() => {
                 BeginContext(182, 14, true);
                 WriteLiteral("ثبت استان جدید");
                 EndContext();
@@ -117,7 +117,7 @@ using DataLayer.ViewModels.Utility;
             WriteLiteral("\r\n                </td>\r\n                <td>\r\n                    ");
             EndContext();
             BeginContext(647, 91, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "708fdf2e3e3c4fd9a945e871b44ad452", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "44c9bea30b814f91b8251492ac7f935a", async() => {
                 BeginContext(728, 6, true);
                 WriteLiteral("ویرایش");
                 EndContext();
@@ -153,7 +153,7 @@ using DataLayer.ViewModels.Utility;
             WriteLiteral("\r\n                    ");
             EndContext();
             BeginContext(760, 91, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1e6307c3981f40c88219c7c25306ae4a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4be7bd77f75743d2b53bd5f3626d05d1", async() => {
                 BeginContext(841, 6, true);
                 WriteLiteral("جزئیات");
                 EndContext();
@@ -189,7 +189,7 @@ using DataLayer.ViewModels.Utility;
             WriteLiteral("\r\n                    ");
             EndContext();
             BeginContext(873, 89, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "185fe6a9336240ff96f6ea182b74b561", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dd9d64f79fde4669bd2e06fd7aee2966", async() => {
                 BeginContext(955, 3, true);
                 WriteLiteral("حذف");
                 EndContext();

@@ -58,6 +58,11 @@ namespace DataLayer.Repositories.Services
             db.SaveChanges();
         }
 
+        public IEnumerable<Pages> Search(string q)
+        {
+            return db.pages.Where(g => g.PageText.Contains(q) || g.PageGroup.GroupTitle.Contains(q) || g.PageDescription.Contains(q) || g.Tags.Contains(q) || g.Title.Contains(q));
+        }
+
         public IEnumerable<Pages> ShowLastNews(int take = 4)
         {
             return db.pages.OrderByDescending(g => g.CreateTime).Take(take);

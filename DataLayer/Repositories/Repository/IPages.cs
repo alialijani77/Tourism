@@ -28,5 +28,7 @@ namespace DataLayer.Repositories.Repository
         IEnumerable<Pages> GetTopNews(int take = 4);
 
         IEnumerable<Pages> ShowLastNews(int take = 4);
+
+        IEnumerable<Pages> Search(string q);
     }
 }

@@ -33,5 +33,11 @@ namespace Gardeshgari.Controllers
             }
             return View(page);
         }
+        [Route("Search")]
+        public IActionResult Search(string q)
+        {
+            ViewBag.s = q;
+            return View(pages.Search(q));
+        }
     }
 }

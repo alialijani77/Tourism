@@ -48,3 +48,4 @@ C:\Users\alia\source\repos\Gardeshgari\Gardeshgari\obj\Debug\netcoreapp2.1\Razor
 C:\Users\alia\source\repos\Gardeshgari\Gardeshgari\obj\Debug\netcoreapp2.1\Razor\Views\Shared\ShowInMenuBar.cshtml.g.cs
 C:\Users\alia\source\repos\Gardeshgari\Gardeshgari\obj\Debug\netcoreapp2.1\Razor\Views\Pages\Archived.cshtml.g.cs
 C:\Users\alia\source\repos\Gardeshgari\Gardeshgari\obj\Debug\netcoreapp2.1\Razor\Views\Pages\Pages.cshtml.g.cs
+C:\Users\alia\source\repos\Gardeshgari\Gardeshgari\obj\Debug\netcoreapp2.1\Razor\Views\Pages\Search.cshtml.g.cs

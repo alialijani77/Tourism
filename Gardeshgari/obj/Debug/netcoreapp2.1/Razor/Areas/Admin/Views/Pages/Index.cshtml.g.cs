@@ -68,7 +68,7 @@ using DataLayer.ViewModels.Utility;
             WriteLiteral("\r\n\r\n\r\n    <p>\r\n        ");
             EndContext();
             BeginContext(121, 66, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "573b70c381e74432942ba2885f96fbb4", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0b558f4924b948378935c86fe0267a38", async() => {
                 BeginContext(169, 14, true);
                 WriteLiteral("ساخت صفحه جدید");
                 EndContext();
@@ -220,7 +220,7 @@ using DataLayer.ViewModels.Utility;
             WriteLiteral("\r\n                    </td>\r\n                    <td>\r\n                        ");
             EndContext();
             BeginContext(1963, 85, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "56031fcca4544fb7970b173e44e261e7", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "79919cdcfe81495f8c645e9e9a85727d", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -246,7 +246,7 @@ AddHtmlAttributeValue("", 1988, item.ImageName, 1988, 15, false);
             WriteLiteral("\r\n                    </td>\r\n                    <td>\r\n                        ");
             EndContext();
             BeginContext(2127, 90, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "024c9641e7ee4a3c873b4e5f7b8ec88b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "813eb78940bf4957b862c8ca2be9b13c", async() => {
                 BeginContext(2207, 6, true);
                 WriteLiteral("ویرایش");
                 EndContext();
@@ -282,7 +282,7 @@ AddHtmlAttributeValue("", 1988, item.ImageName, 1988, 15, false);
             WriteLiteral("\r\n                        ");
             EndContext();
             BeginContext(2243, 90, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2e3e416142444cd2b90fc875284ac442", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f7220949ef114daeaa217cd81e3bed07", async() => {
                 BeginContext(2323, 6, true);
                 WriteLiteral("جزئیات");
                 EndContext();
@@ -318,7 +318,7 @@ AddHtmlAttributeValue("", 1988, item.ImageName, 1988, 15, false);
             WriteLiteral("\r\n                        ");
             EndContext();
             BeginContext(2359, 88, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d35a34e049e64cd8848c248a18715ab7", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6d83584f3a394196bf210388ab25dfb1", async() => {
                 BeginContext(2440, 3, true);
                 WriteLiteral("حذف");
                 EndContext();
